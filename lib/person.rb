@@ -11,8 +11,8 @@ class Person
   def initialize(job)
     @job = job
   end
-  def job=(j)
-    @job = j
+  def job=(job)
+    @job = job
   end
   def job
     "#{@job}"
