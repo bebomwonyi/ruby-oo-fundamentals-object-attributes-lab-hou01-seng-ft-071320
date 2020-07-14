@@ -15,6 +15,6 @@ class Person
     @job = j
   end
   def job
-    "#{job}"
+    "#{@job}"
   end
 end
